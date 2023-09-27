@@ -9,10 +9,6 @@ body {
     font-size: 10px;
     background-color: black;
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
-
-/* Navbar section */
 
 .nav-bar {
     width: 100%;
@@ -97,7 +93,7 @@ body {
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
+    .container-nav {
         margin: 0;
     }
 }
