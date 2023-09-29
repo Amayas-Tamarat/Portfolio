@@ -1,0 +1,45 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* Center the footer content and create columns */
+.container_footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-links ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li 
+{
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}

@@ -94,7 +94,7 @@
   
   .card__title {
     color: var(--gray-dark);
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -102,7 +102,7 @@
   
   .card__text {
     flex: 1 1 auto;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;
   }
@@ -113,3 +113,4 @@
     height: auto; /* Maintain the aspect ratio */
   }
   
+

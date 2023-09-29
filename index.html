@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/scrolldown.css">
     <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <title>Document</title>
@@ -49,35 +50,70 @@
         </div>
         </div>
     </section>
+    <div class="Compet" id="About">
+
+    </div>
 
     <div class="Project" id="Project">
         <ul class="cards">
-            <li class="cards__item">
+            <li class="cards__item hidden-card">
                 <div class="card">
+                    <a href="https://amayas-mountain.projets.garage404.com/" target="_blank">
                     <img src="./assets/img/Mountain.PNG" alt="" class="image-size">
                     <div class="card__content">
                         <div class="card__title">The mountain</div>
                         <p class="card__text">Integration project</p>
-                        <button class="btn btn--block card__btn">Button</button>
+                    </a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <a href="https://amayas-mountain.projets.garage404.com/" target="_blank">
+                    <img src="./assets/img/Mountain.PNG" alt="" class="image-size">
+                    <div class="card__content">
+                        <div class="card__title">The mountain</div>
+                        <p class="card__text">Integration project</p>
+                    </a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <a href="https://amayas-mountain.projets.garage404.com/" target="_blank">
+                    <img src="./assets/img/Mountain.PNG" alt="" class="image-size">
+                    <div class="card__content">
+                        <div class="card__title">The mountain</div>
+                        <p class="card__text">Integration project</p>
+                    </a>
                     </div>
                 </div>
             </li>
         </ul>
-    </div>
-    
+        <footer class="footer">
+            <div class="container_footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <a href="#">Your Logo</a>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    &copy; 2023 Your Company. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+    </div>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./assets/js/scripts.js"></script>
     <script src="./assets/js/scrolldown.js"></script>
-    <script>
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
+    <script src="./assets/js/navbar.js "> </script>
 </body>
 
 </html>
