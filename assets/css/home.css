@@ -183,6 +183,43 @@ body {
     }
 }
 
+.logo {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 100px;
+}
+
+
+
+/* Styles for medium-sized screens */
+@media (max-width: 768px) {
+    .center-content {
+        text-align: center;
+    }
+    .logo img {
+        max-width: 100%;
+    }
+}
+
+/* Styles for smaller screens */
+@media (max-width: 576px) {
+    .center-content {
+        font-size: 18px;
+    }
+    .logo img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .center-content {
+        font-size: 16px;
+    }
+    .logo img {
+        max-width: 60%;
+    }
+}
 
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
