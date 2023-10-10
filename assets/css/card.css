@@ -16,7 +16,7 @@
   }
   
   html {
-    background-color: #f0f0f0;
+    background-color: #463838;
   }
   
 
@@ -53,7 +53,7 @@
     display: flex;
     padding: 1rem;
   }
-  
+    
   .card {
     background-color: white;
     border-radius: 0.25rem;
