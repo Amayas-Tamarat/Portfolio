@@ -42,22 +42,24 @@ img {
   width: 100%;
 }
 
-/* Card Styles */
 .cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
+/* Remove padding from cards__item for spacing control */
 .cards__item {
   display: flex;
   padding: 1rem;
+
 }
 
+/* Card Styles (no other changes needed here) */
 .card {
   background-color: white;
   border-radius: 0.25rem;
