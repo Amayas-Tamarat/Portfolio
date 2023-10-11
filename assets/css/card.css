@@ -152,3 +152,15 @@ img {
     margin-top: 20px; /* Add some spacing to separate it from the "About Me" section */
     text-align: center; /* Center-align the text */
 }
+
+/* Add a hover effect for card scaling */
+.card {
+  position: relative;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase size by 5% on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+  z-index: 2; /* Move the hovered card to a higher plane */
+}
